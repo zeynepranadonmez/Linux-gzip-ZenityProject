@@ -23,5 +23,3 @@ Terminal üzerinden verilen komutlar sırasıyla çalıştırılır.
 Gzip komutu parametreleri kullanılarak seçilen dosyanın .gz uzantılı biçimde sıkıştırılması veya sıkıştırılmış dosyanın açılması.
 ## Uygulama Nasıl Kullanılır?
 
-
-
