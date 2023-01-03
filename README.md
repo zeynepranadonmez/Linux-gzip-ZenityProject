@@ -1,1 +1,1 @@
-# Linux-gzip-ZenityProject
+# Linux-gzip-ZenityProjects
