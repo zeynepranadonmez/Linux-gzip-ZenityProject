@@ -1,11 +1,22 @@
 # Zenity ile Gzip Komutu Görsel Arayüzü
+## Özet
+Linux Araçları ve Kabuk Programlama dersi için verilen dönem projesidir.
+Virtual Box Ubuntu üzerinden Linux Bash Script dili ile görsel arayüz olarak Zenity Kütüphanesi GUI kullanılarak oluşturulmuştur. 
 ## Gzip Komutu Nedir?
 Gzip, orijinal dosya formatını, sahipliğini ve zaman çizelgesini korurken dosya boyutunu azaltıp bir dosyayı sıkıştırmanıza izin veren bir sıkıştırma aracıdır. Orijinal dosya, .gz uzantısıyla biten sıkıştırılmış dosya ile değiştirilecektir.
+## Zenity ve Gzip Nasıl Kurulur?
+sudo apt-get update
+sudo apt-get install zenity
+sudo apt-get install gzip
 ## Projede Kullanılan Gzip Komutu Parametreleri:
-- gzip    : Dosyayı sıkıştırma 
-- gzip-k  : Dosyayı sıkıştırıp orijinal dosyanın saklanması
--	gzip-v  : Dosyayı sıkıştırıp sıkıştırma oranı ve işlenmekte olan dosyaların isimlerinin terminal ekranına yazdırılması
--	gzip-d  : Dosyayı ayıklama 
--	gzip-dk : Dosyayı ayıklayıp sıkıştırılmış dosyanın saklanması 
--	gzip-l  : Sıkıştırılmış dosyanın adını, sıkıştırma oranını, sıkıştırılmış ve sıkıştırılmamış boyutunun başarılı bir şekilde terminal ekranına yazdırılması 
+- gzip : Tek bir dosyayı sıkıştırmak için kullanılır. 
+- gzip-k : Dosyayı sıkıştırıp orijinal dosyayı saklamak için kullanılır.
+-	gzip-v : Dosyayı sıkıştırıp, sıkıştırma oranı ve işlenmekte olan dosyaların isimlerini görmek için kullanılır.
+-	gzip-d : Sıkıştırılmış bir dosyayı açmak için kullanılır.  
+-	gzip-dk : Sıkıştırılmış bir dosyayı açıp, sıkıştırılmış dosyanın orijinal halini saklamak için kullanılır. 
+-	gzip-l : Sıkıştırılmış dosyanın adını, sıkıştırma oranını, sıkıştırılmış ve sıkıştırılmamış boyutunu görmek için kullanılır.
+
+## Kullanılan Teknolojiler
+- Bash Script
+- Zenity
 
