@@ -19,6 +19,9 @@ Terminal üzerinden verilen komutlar sırasıyla çalıştırılır.
 -	gzip-d : Sıkıştırılmış bir dosyayı açmak için kullanılır.  
 -	gzip-dk : Sıkıştırılmış bir dosyayı açıp, sıkıştırılmış dosyanın orijinal halini saklamak için kullanılır. 
 -	gzip-l : Sıkıştırılmış dosyanın adını, sıkıştırma oranını, sıkıştırılmış ve sıkıştırılmamış boyutunu görmek için kullanılır.
+## Uygulamanın Amacı
+Gzip komutu parametreleri kullanılarak seçilen dosyanın .gz uzantılı biçimde sıkıştırılması veya sıkıştırılmış dosyanın açılması.
+## Uygulama Nasıl Kullanılır?
 
 
 
