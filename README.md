@@ -1,7 +1,8 @@
 # Zenity ile Gzip Komutu Görsel Arayüzü
-
 Linux Araçları ve Kabuk Programlama dersi için verilen dönem projesidir.
 Virtual Box Ubuntu üzerinden Linux Bash Script dili ile görsel arayüz olarak Zenity Kütüphanesi GUI kullanılarak oluşturulmuştur. 
+## Uygulamanın Detaylı Anlatım Videosu
+- 
 ## Kullanılan Teknolojiler
 - Bash Script
 - Zenity
