@@ -6,6 +6,8 @@ Virtual Box Ubuntu üzerinden Linux Bash Script dili ile görsel arayüz olarak 
 - Zenity
 ## Gzip Komutu Nedir?
 Gzip, orijinal dosya formatını, sahipliğini ve zaman çizelgesini korurken dosya boyutunu azaltıp bir dosyayı sıkıştırmanıza izin veren bir sıkıştırma aracıdır. Orijinal dosya, .gz uzantısıyla biten sıkıştırılmış dosya ile değiştirilir.
+## Uygulamanın Amacı
+Gzip komutu parametreleri kullanılarak seçilen dosyanın .gz uzantılı biçimde sıkıştırılması veya sıkıştırılmış dosyanın açılması. Sıkıştırılmış olan dosyaların sıkıştırma oranının yüzdelik olarak verilmesi. Sıkıştırılmış ve sıkıştırılmamış dosyaların boyutunun öğrenilmesi.
 ## Gerekli Kurulumlar
 Terminal üzerinden verilen komutlar sırasıyla çalıştırılır.
 - sudo apt-get update
@@ -18,8 +20,6 @@ Terminal üzerinden verilen komutlar sırasıyla çalıştırılır.
 -	gzip-d : Sıkıştırılmış bir dosyayı açmak için kullanılır.  
 -	gzip-dk : Sıkıştırılmış bir dosyayı açıp, sıkıştırılmış dosyanın orijinal halini saklamak için kullanılır. 
 -	gzip-l : Sıkıştırılmış dosyanın adını, sıkıştırma oranını, sıkıştırılmış ve sıkıştırılmamış boyutunu görmek için kullanılır.
-## Uygulamanın Amacı
-Gzip komutu parametreleri kullanılarak seçilen dosyanın .gz uzantılı biçimde sıkıştırılması veya sıkıştırılmış dosyanın açılması. Sıkıştırılmış olan dosyaların sıkıştırma oranının yüzdelik olarak verilmesi. Sıkıştırılmış ve sıkıştırılmamış dosyaların boyutunun öğrenilmesi.
 ## Uygulama Nasıl Kullanılır?
 - İlk olarak terminal ekranı açılır ve ./proje.sh ile uygulama çalıştırılır.
 
