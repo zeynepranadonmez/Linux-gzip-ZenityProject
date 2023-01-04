@@ -49,6 +49,8 @@ i=0
 			-1)
 					echo "Beklenmeyen bir hata oluştu.";;
 	esac
+	
+	sleep 1
 
   elif [[ $secim = 'gzip' ]]
   then
