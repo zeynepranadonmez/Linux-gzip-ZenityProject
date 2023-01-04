@@ -69,7 +69,7 @@ Terminal üzerinden verilen komutlar sırasıyla çalıştırılır.
 
 ## Uygulamanın Detaylı Anlatım Videosu
 
-
+https://youtu.be/2QCcBvq9OgM
 
 
 
